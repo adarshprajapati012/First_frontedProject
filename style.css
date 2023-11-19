@@ -45,7 +45,7 @@ body {
 #cursor-blur {
     height: 58vh;
     width: 58vh;
-    background-color: rgba(183, 215, 93, 0.318);
+    background-color: rgba(182, 215, 93, 0.304);
     border-radius: 50%;
     position: fixed;
     filter: blur(70px);
@@ -278,10 +278,10 @@ video {
 
 #move-box {
     height: 55vh;
-    width: 220.1vh;
+    width: 99.3%;
     margin-top: 100px;
     background-color: transparent;
-    display: flex;
+    display: inline-block;
     gap: 10px;
     align-items: center;
     white-space: nowrap;
@@ -316,6 +316,8 @@ video {
     margin-left: 25px;
     object-fit: cover;
     overflow-x: hidden;
+    display: inline-block;
+    white-space: nowrap;
 }
 
 @keyframes moveing-anim {
@@ -330,7 +332,7 @@ video {
 
 .followpage {
     height: 5vh;
-    width: 95%;
+    width: 99%;
     display: flex;
     font-size: 3vh;
     font-weight: 900;
